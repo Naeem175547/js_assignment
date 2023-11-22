@@ -1,0 +1,21 @@
+The ternary operator in JavaScript is a shorthand way of writing an if-else statement. It allows you to write a concise expression that
+ evaluates to one of two values based on a condition. The syntax for the ternary operator is as follows:
+
+javascript code
+condition ? expression_if_true : expression_if_false;
+Here, condition is the expression that is evaluated. If it's true, the expression_if_true is returned; otherwise, expression_if_false is
+ returned.
+
+
+javascript code
+// Function to check if a number is even or odd using the ternary operator
+function checkEvenOrOdd(number) {
+    // Ternary operator to check if the number is even or odd
+    let result = number % 2 === 0 ? "Even" : "Odd";
+    
+    
+    console.log(`${number} is ${result}.`);
+}
+
+checkEvenOrOdd(5);  
+checkEvenOrOdd(10); 
