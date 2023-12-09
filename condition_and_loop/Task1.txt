@@ -1,0 +1,87 @@
+Conditional statements in programming are used to execute different blocks of code based on certain conditions. The most common types of conditional statements are:
+
+1 If Statement:
+
+Syntax:
+
+
+if (condition) {
+    // Code to execute if the condition is true
+}
+Example:
+
+
+let x = 10;
+if (x > 5) {
+    console.log("x is greater than 5");
+}
+2 If-Else Statement:
+
+Syntax:
+
+if (condition) {
+    // Code to execute if the condition is true
+} else {
+    // Code to execute if the condition is false
+}
+Example:
+
+let x = 3;
+if (x > 5) {
+    console.log("x is greater than 5");
+} else {
+    console.log("x is not greater than 5");
+}
+
+
+3 If-Else If-Else Statement:
+
+Syntax:
+
+if (condition1) {
+    // Code to execute if condition1 is true
+} else if (condition2) {
+    // Code to execute if condition2 is true
+} else {
+    // Code to execute if none of the conditions are true
+}
+Example:
+
+let x = 3;
+if (x > 5) {
+    console.log("x is greater than 5");
+} else if (x === 5) {
+    console.log("x is equal to 5");
+} else {
+    console.log("x is less than 5");
+}
+
+
+4 Switch Statement:
+
+Syntax:
+
+switch (expression) {
+    case value1:
+        // Code to execute if expression === value1
+        break;
+    case value2:
+        // Code to execute if expression === value2
+        break;
+    // Additional cases
+    default:
+        // Code to execute if none of the cases match
+}
+Example:
+
+let day = "Monday";
+switch (day) {
+    case "Monday":
+        console.log("It's the start of the week");
+        break;
+    case "Friday":
+        console.log("Weekend is approaching");
+        break;
+    default:
+        console.log("It's a regular day");
+}
